@@ -201,7 +201,7 @@ AC_DEFUN([GUILE_PROGS],
  [AC_PATH_PROG(GUILE,guile)
   _guile_required_version="m4_default([$1], [$GUILE_EFFECTIVE_VERSION])"
   if test -z "$_guile_required_version"; then
-    _guile_required_version=2.0
+    _guile_required_version=3.0
   fi
   if test "$GUILE" = "" ; then
       AC_MSG_ERROR([guile required but not found])
