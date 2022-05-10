@@ -24,7 +24,7 @@ AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([-Wall -Wno-portability serial-tests])
 AM_SILENT_RULES([yes])
 
-GUILE_PKG([2.2 2.0])
+GUILE_PKG([3.0.8 3.0 2.2 2.0])
 GUILE_PROGS
 
 AC_CONFIG_FILES([
